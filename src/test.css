@@ -1,0 +1,57 @@
+.appBar {
+  overflow: hidden;
+  Color:rgb(2, 17, 17);
+}
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  max-width: 1000;
+  height: auto;
+  border-spacing: 15px 50px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffff;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.title {
+  color: #000000;
+  font-size: 20px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text {
+  color: #000000;
+  font-size: 100%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
